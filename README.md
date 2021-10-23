@@ -1,6 +1,6 @@
 # Digital Innovation One
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Guilherme Ribeiro](https://www.linkedin.com/in/guilhermedasilvaribeiro/)_ referentes aos cursos na "Digital Innovation One".
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Guilherme Ribeiro](https://www.linkedin.com/in/guilhermedasilvaribeiro/)_ referentes aos cursos na Digital Innovation One.
 
 ## Cursos concluídos
 ### Tecnologias
@@ -15,4 +15,4 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Atalhos
 - [x] Revisão do conteúdo
 - [x] Exercícios Práticos de Revisão
-- [x] Certifique seu conhecimento
+- [x] [Certificado](https://drive.google.com/file/d/1Bcy-dhB57K1nnvLAJJaDcbTOB04RZAAi/view?usp=sharing)
