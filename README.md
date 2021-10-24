@@ -10,4 +10,4 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ## Cursos em andamento :arrow_forward:
 ### Linux
 #### Linux: Diretórios e Comandos Essenciais
-&ensp;&ensp;&ensp;&ensp;_Os principais comandos para edição, visualização e criação de arquivos._
+&ensp;&ensp;&ensp;&ensp;_Os principais comandos para exibição, edição, criação e busca de arquivos, comandos para a exibição de calendário e data, além de comandos para redirecionamento de saídas._
