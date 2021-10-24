@@ -1,0 +1,295 @@
+samsung307e
+    descrição: Computer
+    largura: 64 bits
+    capacidades: smp vsyscall32
+  *-core
+       descrição: Motherboard
+       ID físico: 0
+     *-memory
+          descrição: Memória do sistema
+          ID físico: 0
+          tamanho: 4GiB
+     *-cpu
+          produto: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+          fabricante: Intel Corp.
+          ID físico: 1
+          informações do barramento: cpu@0
+          tamanho: 1799MHz
+          capacidade: 1900MHz
+          largura: 64 bits
+          capacidades: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm arat pln pts cpufreq
+     *-pci
+          descrição: Host bridge
+          produto: Broadwell-U Host Bridge -OPI
+          fabricante: Intel Corporation
+          ID físico: 100
+          informações do barramento: pci@0000:00:00.0
+          versão: 09
+          largura: 32 bits
+          clock: 33MHz
+          configuração: driver=bdw_uncore
+          recursos: irq:0
+        *-display
+             descrição: VGA compatible controller
+             produto: HD Graphics 5500
+             fabricante: Intel Corporation
+             ID físico: 2
+             informações do barramento: pci@0000:00:02.0
+             versão: 09
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: vga_controller bus_master cap_list rom
+             configuração: driver=i915 latency=0
+             recursos: irq:48 memória:a9000000-a9ffffff memória:b0000000-bfffffff porta de E/S:4000(tamanho=64) memória:c0000-dffff
+        *-multimedia:0
+             descrição: Audio device
+             produto: Broadwell-U Audio Controller
+             fabricante: Intel Corporation
+             ID físico: 3
+             informações do barramento: pci@0000:00:03.0
+             versão: 09
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: bus_master cap_list
+             configuração: driver=snd_hda_intel latency=0
+             recursos: irq:49 memória:aa114000-aa117fff
+        *-usb:0
+             descrição: USB controller
+             produto: Wildcat Point-LP USB xHCI Controller
+             fabricante: Intel Corporation
+             ID físico: 14
+             informações do barramento: pci@0000:00:14.0
+             versão: 03
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: xhci bus_master cap_list
+             configuração: driver=xhci_hcd latency=0
+             recursos: irq:44 memória:aa100000-aa10ffff
+        *-communication
+             descrição: Communication controller
+             produto: Wildcat Point-LP MEI Controller #1
+             fabricante: Intel Corporation
+             ID físico: 16
+             informações do barramento: pci@0000:00:16.0
+             versão: 03
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: bus_master cap_list
+             configuração: driver=mei_me latency=0
+             recursos: irq:47 memória:aa11c000-aa11c01f
+        *-multimedia:1
+             descrição: Audio device
+             produto: Wildcat Point-LP High Definition Audio Controller
+             fabricante: Intel Corporation
+             ID físico: 1b
+             informações do barramento: pci@0000:00:1b.0
+             versão: 03
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: bus_master cap_list
+             configuração: driver=snd_hda_intel latency=32
+             recursos: irq:50 memória:aa110000-aa113fff
+        *-pci:0
+             descrição: PCI bridge
+             produto: Wildcat Point-LP PCI Express Root Port #3
+             fabricante: Intel Corporation
+             ID físico: 1c
+             informações do barramento: pci@0000:00:1c.0
+             versão: e3
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:42 memória:aa000000-aa0fffff
+           *-network
+                descrição: Interface sem fio
+                produto: QCA9565 / AR9565 Wireless Network Adapter
+                fabricante: Qualcomm Atheros
+                ID físico: 0
+                informações do barramento: pci@0000:01:00.0
+                nome lógico: wlp1s0
+                versão: 01
+                serial: 98:83:89:0b:ff:53
+                largura: 64 bits
+                clock: 33MHz
+                capacidades: bus_master cap_list rom ethernet physical wireless
+                configuração: broadcast=yes driver=ath9k driverversion=5.4.0-47-generic firmware=N/A ip=192.168.0.39 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+                recursos: irq:18 memória:aa000000-aa07ffff memória:aa080000-aa08ffff
+        *-pci:1
+             descrição: PCI bridge
+             produto: Wildcat Point-LP PCI Express Root Port #4
+             fabricante: Intel Corporation
+             ID físico: 1c.3
+             informações do barramento: pci@0000:00:1c.3
+             versão: e3
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:43 porta de E/S:3000(tamanho=4096) porta de E/S:c0000000(tamanho=1048576)
+           *-network
+                descrição: Ethernet interface
+                produto: RTL810xE PCI Express Fast Ethernet controller
+                fabricante: Realtek Semiconductor Co., Ltd.
+                ID físico: 0
+                informações do barramento: pci@0000:02:00.0
+                nome lógico: enp2s0
+                versão: 05
+                serial: 24:f5:aa:f6:00:e2
+                capacidade: 100Mbit/s
+                largura: 64 bits
+                clock: 33MHz
+                capacidades: bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+                configuração: autonegotiation=on broadcast=yes driver=r8169 firmware=rtl_nic/rtl8105e-1.fw latency=0 link=no multicast=yes port=MII
+                recursos: irq:19 porta de E/S:3000(tamanho=256) memória:c0004000-c0004fff memória:c0000000-c0003fff
+        *-usb:1
+             descrição: USB controller
+             produto: Wildcat Point-LP USB EHCI Controller
+             fabricante: Intel Corporation
+             ID físico: 1d
+             informações do barramento: pci@0000:00:1d.0
+             versão: 03
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: ehci bus_master cap_list
+             configuração: driver=ehci-pci latency=0
+             recursos: irq:23 memória:aa11a000-aa11a3ff
+        *-isa
+             descrição: ISA bridge
+             produto: Wildcat Point-LP LPC Controller
+             fabricante: Intel Corporation
+             ID físico: 1f
+             informações do barramento: pci@0000:00:1f.0
+             versão: 03
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: isa bus_master cap_list
+             configuração: driver=lpc_ich latency=0
+             recursos: irq:0
+        *-sata
+             descrição: SATA controller
+             produto: Wildcat Point-LP SATA Controller [AHCI Mode]
+             fabricante: Intel Corporation
+             ID físico: 1f.2
+             informações do barramento: pci@0000:00:1f.2
+             versão: 03
+             largura: 32 bits
+             clock: 66MHz
+             capacidades: sata ahci_1.0 bus_master cap_list
+             configuração: driver=ahci latency=0
+             recursos: irq:45 porta de E/S:40b0(tamanho=8) porta de E/S:40a0(tamanho=4) porta de E/S:4090(tamanho=8) porta de E/S:4080(tamanho=4) porta de E/S:4060(tamanho=32) memória:aa119000-aa1197ff
+        *-serial
+             descrição: SMBus
+             produto: Wildcat Point-LP SMBus Controller
+             fabricante: Intel Corporation
+             ID físico: 1f.3
+             informações do barramento: pci@0000:00:1f.3
+             versão: 03
+             largura: 64 bits
+             clock: 33MHz
+             configuração: driver=i801_smbus latency=0
+             recursos: irq:18 memória:aa118000-aa1180ff porta de E/S:4040(tamanho=32)
+     *-pnp00:00
+          produto: PnP device PNP0c02
+          ID físico: 2
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:01
+          produto: PnP device PNP0b00
+          ID físico: 3
+          capacidades: pnp
+          configuração: driver=rtc_cmos
+     *-pnp00:02
+          produto: PnP device INT3f0d
+          ID físico: 4
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:03
+          produto: PnP device MSF0001
+          ID físico: 5
+          capacidades: pnp
+          configuração: driver=i8042 kbd
+     *-pnp00:04
+          produto: PnP device ETD0b00
+          ID físico: 6
+          capacidades: pnp
+          configuração: driver=i8042 aux
+     *-pnp00:05
+          produto: PnP device PNP0c02
+          ID físico: 7
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:06
+          produto: PnP device PNP0c02
+          ID físico: 8
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:07
+          produto: PnP device PNP0c02
+          ID físico: 9
+          capacidades: pnp
+          configuração: driver=system
+              total       usada       livre    compart.  buff/cache  disponível
+Mem.:       3939496     2434760      271444      275000     1233292      967708
+Swap:       2097148      464384     1632764
+00:00.0 Host bridge: Intel Corporation Broadwell-U Host Bridge -OPI (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 5500 (rev 09)
+00:03.0 Audio device: Intel Corporation Broadwell-U Audio Controller (rev 09)
+00:14.0 USB controller: Intel Corporation Wildcat Point-LP USB xHCI Controller (rev 03)
+00:16.0 Communication controller: Intel Corporation Wildcat Point-LP MEI Controller #1 (rev 03)
+00:1b.0 Audio device: Intel Corporation Wildcat Point-LP High Definition Audio Controller (rev 03)
+00:1c.0 PCI bridge: Intel Corporation Wildcat Point-LP PCI Express Root Port #3 (rev e3)
+00:1c.3 PCI bridge: Intel Corporation Wildcat Point-LP PCI Express Root Port #4 (rev e3)
+00:1d.0 USB controller: Intel Corporation Wildcat Point-LP USB EHCI Controller (rev 03)
+00:1f.0 ISA bridge: Intel Corporation Wildcat Point-LP LPC Controller (rev 03)
+00:1f.2 SATA controller: Intel Corporation Wildcat Point-LP SATA Controller [AHCI Mode] (rev 03)
+00:1f.3 SMBus: Intel Corporation Wildcat Point-LP SMBus Controller (rev 03)
+01:00.0 Network controller: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller (rev 05)
+Bus 001 Device 002: ID 8087:8001 Intel Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 002 Device 006: ID 0bda:0129 Realtek Semiconductor Corp. RTS5129 Card Reader Controller
+Bus 002 Device 005: ID 2232:1069 Silicon Motion ATIV VGA Camera
+Bus 002 Device 007: ID 0cf3:3004 Qualcomm Atheros Communications AR3012 Bluetooth 4.0
+Bus 002 Device 003: ID 1c4f:0002 SiGma Micro Keyboard TRACER Gamma Ivory
+Bus 002 Device 002: ID 275d:0ba6  USB OPTICAL MOUSE 
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Arquitetura:                     x86_64
+Modo(s) operacional da CPU:      32-bit, 64-bit
+Ordem dos bytes:                 Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          4
+Lista de CPU(s) on-line:         0-3
+Thread(s) per núcleo:            2
+Núcleo(s) por soquete:           2
+Soquete(s):                      1
+Nó(s) de NUMA:                   1
+ID de fornecedor:                GenuineIntel
+Família da CPU:                  6
+Modelo:                          61
+Nome do modelo:                  Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+Step:                            4
+CPU MHz:                         1675.228
+CPU MHz máx.:                    1900,0000
+CPU MHz mín.:                    500,0000
+BogoMIPS:                        3990.97
+Virtualização:                   VT-x
+cache de L1d:                    64 KiB
+cache de L1i:                    64 KiB
+cache de L2:                     512 KiB
+cache de L3:                     3 MiB
+CPU(s) de nó0 NUMA:              0-3
+Vulnerability Itlb multihit:     KVM: Mitigation: Split huge pages
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Vulnerable
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, STIBP disabled, RSB filling
+Vulnerability Srbds:             Vulnerable: No microcode
+Vulnerability Tsx async abort:   Not affected
+Opções:                          fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm arat pln pts
+Linux
+5.4.0-47-generic
+x86_64
