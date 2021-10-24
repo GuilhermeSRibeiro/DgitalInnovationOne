@@ -14,4 +14,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 &ensp;&ensp;&ensp;&ensp;_Como manipular os arquivos do ecossistema do Linux no terminal, gerenciando os arquivos de maneira profissional e aprendendo os principais e mais utilizados comandos no terminal._
 
 ## Cursos em andamento :arrow_forward:
-<!-- ### Linux -->
+### Linux
+#### Linux: A Introdução ao Sistema Operacional
+&ensp;&ensp;&ensp;&ensp;_Como trabalhar com o sistema operacional Linux, um dos mais utilizados do mundo e muito popular entre os desenvolvedores. Podendo ser usado en desktops, servidores, smartphones e tablets._
