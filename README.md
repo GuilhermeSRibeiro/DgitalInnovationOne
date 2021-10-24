@@ -10,5 +10,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Linux: Diretórios e Comandos Essenciais - [Certificado](https://drive.google.com/file/d/1IShZgKfjtriSV7hmDmo-4MYY56jE7D5p/view?usp=sharing)
 &ensp;&ensp;&ensp;&ensp;_Os principais comandos para exibição, edição, criação e busca de arquivos, comandos para a exibição de calendário e data, além de comandos para redirecionamento de saídas._
 
+#### Shell Script: Manipulando Arquivos - [Certificado](https://drive.google.com/file/d/1K1TUUoFHzmPKGbnze9vStNzE_wycwp3N/view?usp=sharing)
+&ensp;&ensp;&ensp;&ensp;_Como manipular os arquivos do ecossistema do Linux no terminal, gerenciando os arquivos de maneira profissional e aprendendo os principais e mais utilizados comandos no terminal._
+
 ## Cursos em andamento :arrow_forward:
 <!-- ### Linux -->
