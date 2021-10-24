@@ -4,4 +4,5 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ## Cursos concluídos :heavy_check_mark:
 ### Linux
-#### Linux: Introdução ao Sistema Operacional e Terminal _[Certificado](https://drive.google.com/file/d/1Bcy-dhB57K1nnvLAJJaDcbTOB04RZAAi/view?usp=sharing)_
+#### Linux: Introdução ao Sistema Operacional e Terminal - [Certificado](https://drive.google.com/file/d/1Bcy-dhB57K1nnvLAJJaDcbTOB04RZAAi/view?usp=sharing)
+&ensp;&ensp;&ensp;&ensp;_Os primeiros passos no mundo do Linux. Instalação do Linux com uma máquina virtual, configuração do sistema operacional e uso de comandos básicos pelo terminal, que possibilitam a criação e manupulação de arquivos e diretórios._
